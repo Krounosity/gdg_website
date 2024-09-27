@@ -1,1 +1,2 @@
-Website hosted [here](https://gdgwebsitevarnan.vercel.app/){:target="_blank"} 
+Website hosted [here](https://gdgwebsitevarnan.vercel.app/)
+
