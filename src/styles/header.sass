@@ -2,21 +2,32 @@ header.App-header
     display: grid
     align-items: center
     height: 9vh
+    padding: 0 2vw
     box-shadow: 0 1vh 1vh -1px rgba(0, 0, 0, 0.1)
-    grid-template-columns: 1fr 1fr 9fr
+    grid-template-columns: 2fr 7fr
+    grid-gap: 1vw
+
+    color: #868686
 
 #logo
-    left: 3vw
     position: relative
-    height: 3.3vh
-    margin-right: 5vw
+    height: 4vh 
+    margin: 1vh
 
 .heading
-    font-size: 3vh
+    font-size: 2.4vh
+    justify-self: start
+    white-space: nowrap
+    margin: 1vh
+    text-decoration: none
+    color: #868686
 
 .headers
     display: flex
-    justify-content: right
-    margin: auto
-        right: 2vw
-    
+    justify-content: flex-end
+    align-items: center
+    gap: 2vw
+    margin-right: 2vw
+
+.wrap
+    display: flex
