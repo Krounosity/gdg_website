@@ -6,8 +6,10 @@ import HeaderLink from "./header_links.jsx";
 function Header(){
     return( 
         <header className="App-header">
-            <img src={require("../images/logo.png")} id="logo" alt = "GDG logo"></img>
-            <h1 className="heading">GDG RBU</h1>
+            <div className="wrap">
+                <img src={require("../images/logo.png")} id="logo" alt = "GDG logo"></img>
+                <a className="heading" href="">GDG RBU</a>
+            </div>
             <div className="headers">
                 {headerLinks.map(header => (
                     <HeaderLink title={header.title}></HeaderLink>
