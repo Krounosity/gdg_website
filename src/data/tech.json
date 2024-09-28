@@ -1,0 +1,19 @@
+[
+    {
+        "logo" : "",
+        "tech" : "Android",
+        "color" : "red"
+    },
+
+    {
+        "logo" : "",
+        "tech" : "Flutter",
+        "color" : "blue"
+    },
+
+    {
+        "logo" : "",
+        "tech" : "Cloud",
+        "color" : "green"
+    }
+]
