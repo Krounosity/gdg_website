@@ -6,6 +6,7 @@ import KnowUs from "./knowUs";
 function LandingPage(){
     return(
         <>
+            {/* Main Section */}
             <div style={{display: "grid", justifyContent: "center", textAlign: "center"}}>
                 <h1>Google Developer Groups</h1>
                 <h2>RBU Chapter</h2>
@@ -14,9 +15,20 @@ function LandingPage(){
                 <button style={{fontFamily: "Open Sans"}}>JOIN US</button>
             </div>
             
+            {/* Know about us section. */}
             {knowUsInfo.map(know => (
                 <KnowUs title={know.title} image={know.image} color={know.color} content={know.content} alignment={know.alignment}></KnowUs>
             ))}
+
+            {/* Technologies. */}
+
+
+            {/* FAQ section. */}
+
+            
+
+
+            {/* Footer. */}
         </>
     )
 }

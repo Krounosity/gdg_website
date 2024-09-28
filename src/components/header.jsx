@@ -7,7 +7,7 @@ function Header(){
     return( 
         <header className="App-header">
             <div className="wrap">
-                <img src={require("../images/logo.png")} id="logo" alt = "GDG logo"></img>
+                <img src={"/images/logo.png"} id="logo" alt = "GDG logo"></img>
                 <a className="heading" href="">GDG RBU</a>
             </div>
             <div className="headers">
