@@ -1,8 +1,9 @@
 import React from "react";
+import '../styles/faq.sass';
 
 function FAQ({question, answer, color}){
     return(
-        <>
+        <div className="faq">
             <div className="question">
                 <h2>{question}</h2>
             </div>
@@ -11,7 +12,7 @@ function FAQ({question, answer, color}){
                 <div className="left-border"></div>
                 <p>{answer}</p>
             </div>
-        </>
+        </div>
     )
 }
 
