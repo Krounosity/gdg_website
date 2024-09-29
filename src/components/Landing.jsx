@@ -12,16 +12,16 @@ import KnowUs from "./knowUs";
 import FAQ from "./faq";
 import Footer from "./footer";
 
-function LandingPage(){
+function LandingPage(){ 
     return(
         <>
             {/* Main Section */}
-            <div style={{display: "grid", justifyContent: "center", textAlign: "center"}}>
-                <h1>Google Developer Groups</h1>
+            <div className="landing" style={{display: "grid", justifyContent: "center", textAlign: "center"}}>
+                <h1><span style={{color: "#4285f4"}}>G</span><span style={{color: "#db4437"}}>o</span><span style={{color: "#fcb912"}}>o</span><span style={{color: "#4285f4"}}>g</span><span style={{color: "#0f9d58"}}>l</span><span style={{color: "#db4437"}}>e</span> Developer Groups</h1>
                 <h2>RBU Chapter</h2>
                 <img src={"../images/img1.png"} alt='Main'></img>
                 <p>Google Developer Groups are community groups for college and university students interested in Google developer technologies.</p>
-                <button style={{fontFamily: "Open Sans"}}>JOIN US</button>
+                <button style={{fontFamily: "Open Sans", backgroundColor: "#4285f4"}}>JOIN US</button>
             </div>
             
             {/* Add three down arrows */}
