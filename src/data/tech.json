@@ -1,18 +1,18 @@
 [
     {
-        "logo" : "",
+        "logo" : "/images/android.png",
         "tech" : "Android",
         "color" : "red"
     },
 
     {
-        "logo" : "",
+        "logo" : "/images/flutter.png",
         "tech" : "Flutter",
         "color" : "blue"
     },
 
     {
-        "logo" : "",
+        "logo" : "/images/cloud.png",
         "tech" : "Cloud",
         "color" : "green"
     }
