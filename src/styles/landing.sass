@@ -1,17 +1,12 @@
-.arrow
-    border: solid black
-    border-width: 0 3px 3px 0
-    display: inline-block
-    padding: 3px
-
-    .right
-        transform: rotate(-45deg)
-        -webkit-transform: rotate(-45deg)
-        
-    .down 
-        transform: rotate(45deg)
-        -webkit-transform: rotate(45deg)
-
+.arrows
+    display: flex
+    flex-direction: column
+    padding: 3rem
+    svg
+        height: 4rem
+        margin: -0.8.1rem
+        padding: 0
+    
 .technologies
     display: grid
     grid-template-columns: repeat(3, 1fr)
@@ -55,5 +50,47 @@
         width: 16rem
         font-size: 2rem
         color: white
-        border-color: none
+        border: none
         font-weight: 800
+
+.allStat
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    margin: auto
+    width: 80vw
+
+.tech-heading
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 4.8rem
+    color: #5F5F5F
+    margin-top: 18rem
+ 
+    hr
+        margin: 0rem 3rem 0rem 3rem
+        width: 22.2rem
+        background-color: #FF6060
+        height: 0.3rem
+        border: none
+
+.tech-para
+    text-align: center
+    margin: auto
+    font-size: 2.1rem
+    margin-top: -3.3rem
+    color: #5F5F5F
+
+.faq-heading
+    color: #5F5F5F
+    font-size: 4rem
+    text-align: center
+    margin-top: 19.5rem
+
+.technologies
+    display: flex
+    flex-direction: row
+    column-gap: 6rem
+    margin-top: 10rem
+    justify-content: center
