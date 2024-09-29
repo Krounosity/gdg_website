@@ -1,7 +1,16 @@
 import React from "react";
 import '../styles/landing.sass';
+
 import knowUsInfo from "../data/body_card.json";
+import techInfo from '../data/tech.json';
+import statInfo from '../data/stats.json';
+import faqInfo from "../data/faqs.json";
+
+import Stat from "./stat";
+import Tech from "./tech";
 import KnowUs from "./knowUs";
+import FAQ from "./faq";
+import Footer from "./footer";
 
 function LandingPage(){
     return(
@@ -15,20 +24,34 @@ function LandingPage(){
                 <button style={{fontFamily: "Open Sans"}}>JOIN US</button>
             </div>
             
+            {/* Add three down arrows */}
+
             {/* Know about us section. */}
             {knowUsInfo.map(know => (
                 <KnowUs title={know.title} image={know.image} color={know.color} content={know.content} alignment={know.alignment}></KnowUs>
             ))}
 
-            {/* Technologies. */}
+            {/* Stat */}
+            {statInfo.map(stats => (
+                <Stat stat={stats.stat} number={stats.number}></Stat>
+            ))}
 
+            {/* Technologies. */}
+            <h2> Technologies </h2>
+            <div className="technologies">
+                {techInfo.map(tech => (
+                    <Tech name = {tech.tech} logo = {tech.logo} color = {tech.color}></Tech>
+                ))}
+            </div>
 
             {/* FAQ section. */}
-
-            
-
+            <h2> FAQs </h2>
+            {faqInfo.map(faq => (
+                <FAQ question={faq.question} answer={faq.answer} color={faq.color}></FAQ>
+            ))}
 
             {/* Footer. */}
+            <Footer></Footer>
         </>
     )
 }
