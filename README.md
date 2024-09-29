@@ -11,8 +11,6 @@ This project is a task for the upcoming **Google Developer Groups (GDG)** interv
 - **Statistics**: Displays years active, number of events, members, and attendees.
 - **Technologies**: Highlights key technologies, including Android, Flutter, and Google Cloud.
 - **FAQs Section**: Answers common questions about GDG and how to get involved.
-- **Light/Dark Mode**: Simple toggle for light and dark themes.
-- **Responsive Design**: Optimized for both desktop and mobile screens.
 
 ---
 
