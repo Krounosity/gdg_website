@@ -1,6 +1,6 @@
 # GDG RBU Website
-
-This project is a task for the upcoming **Google Developer Groups (GDG)** interview. The website represents the **GDG RBU Chapter**, showcasing the chapter's mission, events, technologies, and FAQs. It’s built using **React** and is fully Dockerized for easy deployment.
+### [Link to website](https://gdgwebsitevarnan.vercel.app/)
+This project is a task for the upcoming **Google Developer Groups (GDG)** interview. The website represents the **GDG RBU Chapter**, showcasing the chapter's mission, events, technologies, and FAQs. It’s built using **React**.
 
 ---
 
@@ -11,18 +11,11 @@ This project is a task for the upcoming **Google Developer Groups (GDG)** interv
 - **Statistics**: Displays years active, number of events, members, and attendees.
 - **Technologies**: Highlights key technologies, including Android, Flutter, and Google Cloud.
 - **FAQs Section**: Answers common questions about GDG and how to get involved.
-- **Light/Dark Mode**: Simple toggle for light and dark themes.
-- **Responsive Design**: Optimized for both desktop and mobile screens.
-- **Dockerized**: Simplified deployment using Docker.
 
 ---
 
 ## Installation
 
-### Prerequisites
-
-- **Node.js** and **npm** installed.
-- **Docker** installed for containerized deployment.
 
 ### Local Development
 
@@ -80,14 +73,7 @@ Access the app at http://localhost:3000
 
 - **React**: Frontend framework for building UI components.
 - **SASS**: CSS preprocessor for styling.
-- **Docker**: Used to containerize the application.
 - **Node.js**: Runtime for running the React app.
-
----
-
-## Deployment
-
-The website can be deployed using Docker, ensuring a consistent environment across platforms. After building the Docker image, the app can be deployed on any system supporting Docker.
 
 ---
 
