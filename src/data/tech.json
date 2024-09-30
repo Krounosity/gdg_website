@@ -8,12 +8,12 @@
     {
         "logo" : "/images/flutter.png",
         "tech" : "Flutter",
-        "color" : "blue"
+        "color" : "#4285F4"
     },
 
     {
         "logo" : "/images/cloud.png",
         "tech" : "Cloud",
-        "color" : "green"
+        "color" : "#0F9D56"
     }
 ]
