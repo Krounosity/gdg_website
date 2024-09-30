@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/faq.sass';
 
-function FAQ({question, answer, color}){
+function FAQ({question, answer, color, height}){
     return(
         <div className="faq">
             <div className="question">
@@ -9,7 +9,7 @@ function FAQ({question, answer, color}){
             </div>
 
             <div className="answer">
-                <div className="left-border"></div>
+                <div className="left-border" style={{backgroundColor: color, height: height}}></div>
                 <p>{answer}</p>
             </div>
         </div>

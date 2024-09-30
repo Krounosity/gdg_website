@@ -10,7 +10,6 @@ import Stat from "./stat";
 import Tech from "./tech";
 import KnowUs from "./knowUs";
 import FAQ from "./faq";
-import Footer from "./footer";
 
 function LandingPage(){ 
     return(
@@ -70,11 +69,8 @@ function LandingPage(){
             {/* FAQ section. */}
             <h2 className="faq-heading"> FAQs </h2>
             {faqInfo.map(faq => (
-                <FAQ question={faq.question} answer={faq.answer} color={faq.color}></FAQ>
+                <FAQ question={faq.question} answer={faq.answer} color={faq.color} height={faq.height}></FAQ>
             ))}
-
-            {/* Footer. */}
-            <Footer></Footer>
         </>
     )
 }
