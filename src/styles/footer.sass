@@ -1,5 +1,96 @@
-.footer-img
-    width: 100vw
-
 footer
-    width: 10%
+    background-color: #ECECEC
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 2em 0
+    align-items: center
+    padding-bottom: 0
+
+.footer-span
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 90%
+    max-width: 1200px
+
+.footer-content
+    display: flex
+    align-items: center
+    gap: 1.5em
+
+.gdg
+    text-align: left
+    img
+        width: 150px
+    p
+        font-size: 1.2em
+        line-height: 1.5
+
+.vertical-rule
+    height: 100px
+    width: 1px
+    background-color: #000
+
+.info
+    font-size: 1em
+    line-height: 1.4
+    i.icon-location
+        margin-right: 0.5em
+    i.icon-email
+        margin-right: 0.5em
+
+.socials
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    p
+        margin-bottom: 0.5em
+        font-size: 1.1em
+        font-weight: bold
+    .social-platforms
+        margin-right: 1em
+        img
+            width: 30px
+
+#footer-img
+    width: 100%
+    height: auto
+    margin-top: auto
+
+// Responsive styles for smaller screens
+
+@media (max-width: 430px) // For Samsung A51 and iPhone 14 Pro
+    .footer-span
+        flex-direction: column // Stack content vertically
+        align-items: center
+        gap: 1em
+
+    .gdg img
+        width: 120px // Adjust image size for smaller screens
+    .gdg p
+        font-size: 1em
+
+    .info
+        font-size: 0.9em
+
+    .socials
+        align-items: center // Align socials to the center on small screens
+        p
+            font-size: 1em
+
+@media (max-width: 768px) // For iPad/Tablet
+    .footer-span
+        flex-direction: column
+        gap: 2em
+
+    .gdg img
+        width: 130px
+    .gdg p
+        font-size: 1.1em
+
+    .info
+        font-size: 1em
+
+    .socials
+        align-items: center

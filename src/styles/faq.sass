@@ -1,11 +1,82 @@
 .faq
     margin: auto
-    width: 36rem
+    width: 54rem
 
     .question
+        color: #5F5F5F
+        width: 50rem
         font-size: 1.2rem
+        box-shadow: 0rem 0rem 0rem 1rem #e1e1e1
+        padding: 1px
+        padding-left: 3rem
+        border-radius: 40px
     
     .answer
-        font-size: 1.4rem
-        line-height: 2.4rem
-        width: 45rem
+        display: flex
+        flex-direction: row
+        margin-top: 2.1rem
+        
+        p
+            font-size: 1.4rem
+            line-height: 2.4rem
+            width: 40rem
+            margin: auto
+            margin-top: 0.9rem
+            margin-bottom: 9rem
+            padding: 1rem
+            box-shadow: 0.4rem 0rem 0rem 1rem #e1e1e1
+            border-radius: 0px 30px 30px 0px
+
+    .left-border
+        width: 1rem
+        border-radius: 10px 0 0 10px
+        margin: -0.1rem -5rem 0rem 5rem
+
+
+@media (max-width: 430px)
+    .faq 
+        width: 100%
+        padding: 0 1rem
+
+        .question 
+            width: 100%
+            font-size: 1rem
+            padding-left: 2rem
+        
+
+        .answer p 
+            width: 100%
+            font-size: 1rem
+            line-height: 1.8rem
+            padding: 1rem
+            margin-bottom: 5rem
+        
+
+        .left-border 
+            margin-left: 0
+        
+    
+
+
+@media (max-width: 768px)
+    .faq
+        width: 90%
+        padding: 0 1.5rem
+
+        .question
+            width: 90%
+            font-size: 1.1rem
+            padding-left: 2.5rem
+
+        .answer p 
+            width: 100%
+            font-size: 1.2rem
+            line-height: 2rem
+            padding: 1rem
+            margin-bottom: 6rem
+        
+
+        .left-border 
+            margin-left: 0
+        
+    

@@ -13,7 +13,7 @@ header.App-header
 
 #logo
     position: relative
-    height: 4.8vh 
+    height: 4.8vh
     margin: 1vh
     margin-left: 2vw
 
@@ -35,3 +35,36 @@ header.App-header
 
 .wrap
     display: flex
+
+// Responsive styles for smaller screens
+
+@media (max-width: 430px) // For Samsung A51 and iPhone 14 Pro
+    header.App-header
+        grid-template-columns: 1fr 5fr
+        padding: 0 1vw
+        height: 10vh
+
+    .heading
+        font-size: 2.5vh
+        margin: 0.5vh
+
+    .headers
+        gap: 1vw
+
+    #logo
+        height: 3.5vh
+
+@media (max-width: 768px) // For iPad/Tablet
+    header.App-header
+        grid-template-columns: 1fr 6fr
+        padding: 0 1.5vw
+        height: 12vh
+
+    .heading
+        font-size: 2vh
+
+    .headers
+        gap: 1.5vw
+
+    #logo
+        height: 4vh
